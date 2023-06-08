@@ -33,6 +33,8 @@ class CardDeck:   #  object
     def cards(self):
         return self._cards
     
+    # cards = property(cards)
+
     @property
     def dealer(self):  # getter property
         return self._dealer
