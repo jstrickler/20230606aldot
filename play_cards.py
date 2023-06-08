@@ -1,3 +1,6 @@
+"""
+Play a game of cards
+"""
 from carddeck import CardDeck
 from jokerdeck import JokerDeck
 
@@ -7,7 +10,7 @@ print(f"d1: {d1}")
 d2 = CardDeck('Bela')  # separate deck
 
 # VERY NAUGHTY
-print(f"d1._dealer: {d1._dealer}")
+# print(f"d1._dealer: {d1._dealer}")
 
 print(f"d1.dealer: {d1.dealer}")
 print(f"d2.dealer: {d2.dealer}")
@@ -35,8 +38,3 @@ print(f"j: {j}")
 j.shuffle()
 print(j.cards)
 print()
-
-
-
-
-

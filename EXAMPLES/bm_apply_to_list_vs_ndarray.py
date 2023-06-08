@@ -1,9 +1,9 @@
 from timeit import Timer
 
-REPEATS = 1000
+REPEATS = 100
 
 setup_code = """
-SIZE = 1_000_000
+SIZE = 100_000
 import numpy as np
 my_list = list(range(SIZE))
 my_ndarray = np.arange(SIZE)

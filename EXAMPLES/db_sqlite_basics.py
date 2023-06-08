@@ -1,6 +1,8 @@
 
 import sqlite3
 
+
+
 # conn = sqlite3.Connection(...)
 with sqlite3.connect("../DATA/presidents.db") as conn:  # connect to the database
 

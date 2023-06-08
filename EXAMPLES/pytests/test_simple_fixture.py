@@ -12,7 +12,6 @@ db_cursor = db_conn.cursor()
 db_cursor.row_factory = sqlite3.Row  # set the row factory to be a Row object
 
 @pytest.fixture
-
 def presidents():
     db_cursor.execute('select * from presidents')
     return db_cursor.fetchall()
@@ -32,3 +31,6 @@ def test_last_name(person):  # pass fixture as test parameter
 
 def test_john_tyler_is_from_virginia(presidents):
     assert presidents[9]['birthstate'] == 'Virginia'  # John Tyler is 10th president
+
+if __name__ == "__main__":
+    pytest.main(['-v', __file__])

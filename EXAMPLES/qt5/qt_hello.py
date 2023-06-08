@@ -13,4 +13,5 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)  # These 4 lines are always required. Only the name of the main window object changes.
     main_window = HelloWindow()
     main_window.show()
-    sys.exit(app.exec_())
+    status = app.exec_()
+    sys.exit(status)

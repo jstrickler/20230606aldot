@@ -12,6 +12,14 @@ def test_two():
 def test_three():
     assert 1
 
+@pytest.mark.gamma
+@pytest.mark.beta
+@pytest.mark.alpha
+def test_four():
+    assert 42
+
+
+
 if __name__ == '__main__':
     pytest.main([__file__, '-m alpha'])  # Only tests marked with alpha will run (equivalent to 'pytest -m alpha' on command line)
 
