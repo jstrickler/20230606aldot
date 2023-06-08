@@ -1,0 +1,14 @@
+cython
+lxml
+mypy
+numba
+paramiko
+pylint
+pymongo
+pyqt5
+pytest
+pytest-mock
+python-dateutil
+PyYAML
+requests
+singledispatch
