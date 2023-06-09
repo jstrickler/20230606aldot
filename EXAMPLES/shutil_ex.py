@@ -14,6 +14,6 @@ new_folder = 'remove_me'
 os.mkdir(new_folder) # create new folder
 shutil.move('fred.txt', new_folder)
 
-shutil.rmtree(new_folder) # recursively remove folder
+shutil.rmtree(new_folder) # recursively remove folder   "rm -rf ..."   "rmdir /s ..."
 
 print("{} exists:".format(new_folder), os.path.exists(new_folder))

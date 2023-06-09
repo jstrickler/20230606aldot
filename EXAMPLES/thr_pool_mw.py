@@ -12,7 +12,7 @@ with open('dictionaryapikey.txt') as api_key_in:
 SEARCH_TERMS = [  # terms to search for; each thread will search some of these terms
     'wombat', 'pine marten', 'python', 'pearl',
     'sea', 'formula', 'translation', 'common',
-    'business', 'frog', 'muntin', 'automobile',
+    'business', 'frog', 'muntin', 'automobile', "transportation",
     'green', 'connect','vial', 'battery', 'computer',
     'sing', 'park', 'ladle', 'ram', 'dog', 'scalpel',
     'emulsion', 'noodle', 'combo', 'battery'

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='ASCII'?>
+<knights>
+  <knight title="King">
+    <color>blue</color>
+    <quest>The Grail</quest>
+    <comment>King of the Britons</comment>
+    <name>Arthur</name>
+  </knight>
+  <knight title="Sir">
+    <color>red</color>
+    <quest>The Grail</quest>
+    <comment>'I could handle some more peril'</comment>
+    <name>Galahad</name>
+  </knight>
+  <knight title="Sir">
+    <color>blue</color>
+    <quest>The Grail</quest>
+    <comment>"It's too perilous!"</comment>
+    <name>Lancelot</name>
+  </knight>
+  <knight title="Sir">
+    <color>yellow</color>
+    <quest>Not Sure</quest>
+    <comment>He boldly ran away</comment>
+    <name>Robin</name>
+  </knight>
+  <knight title="Sir">
+    <color>red, no blue!</color>
+    <quest>The Grail</quest>
+    <comment>AARRRRRRRGGGGHH</comment>
+    <name>Bedevere</name>
+  </knight>
+  <knight title="Sir">
+    <color>blue</color>
+    <quest>The Grail</quest>
+    <comment>none</comment>
+    <name>Gawain</name>
+  </knight>
+</knights>

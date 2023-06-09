@@ -15,7 +15,7 @@ def my_task(word):  # actual task
     return word.upper()
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # required!!
     ppool = Pool(POOL_SIZE)  # create pool of POOL_SIZE processes
 
     WORD_LIST = ppool.map(my_task, WORDS)  # pass wordlist to pool and get results; map assigns values from input list to processes as needed

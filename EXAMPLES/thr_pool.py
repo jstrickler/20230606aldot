@@ -6,7 +6,7 @@ with open('../DATA/words.txt') as words_in:
     WORDS = [w.strip() for w in words_in] # get list of 175K words
 
 def my_task(word):  # function to apply to each element
-    return word.upper()
+    return word.upper(), len(word)
 
 thread_pool = Pool(POOL_SIZE) # create pool
 
